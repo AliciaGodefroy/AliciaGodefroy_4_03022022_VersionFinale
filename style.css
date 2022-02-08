@@ -37,6 +37,10 @@ blockquote p::after {
   content: '\201D';
 }
 
+.col-sm-4 p{
+    color: black;
+}
+
 /* SECTION EXPERTISES - END */
 
 #page-loading-blocs-notifaction {
@@ -659,6 +663,7 @@ a {
 
 p {
     font-size: 15px;
+    color: black;
 }
 
 .tight-width-whitespace {
