@@ -20,36 +20,27 @@ a:hover {
 
 /* SECTION EXPERTISES*/
 
-blockquote {
-  width: 70%;
-  padding: 10px 20px;
-  margin: 40px 20px 0 20px;
-  font-size: 17.5px;
-  border-left: 5px solid #eee;
-}
-
-blockquote p {
-  font-style: italic;
-  margin-left: 150px;
-  margin-right: 150px;
-  padding: 15px;
-  background: #eee;
-  border-radius: 5px;
-}
-
-blockquote p::before {
-  content: '\201C';
-}
-
-blockquote p::after {
-  content: '\201D';
-}
-
 .col-sm-4 p{
     color: black;
 }
 
+.citation{
+    text-align: center;
+    width: 70%;
+    padding-top: 50px;
+    justify-content: center;
+}
+
 /* SECTION EXPERTISES - END */
+
+/* SECTION CTA */
+
+.banniere-titre{
+    color: white!important;
+}
+
+/* SECTION CTA - END */
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
