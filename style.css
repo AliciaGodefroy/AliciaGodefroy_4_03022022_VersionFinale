@@ -816,6 +816,14 @@ h4 {
     text-align: center;
 }
 
+.col-sm-12 h1{
+  color: white;
+}
+
+.col-sm-12 p{
+    color: white;
+}
+
 .form-group{
     display: flex;
     flex-direction: column;
@@ -836,7 +844,7 @@ h4 {
 }
 
 .col-sm-6 button{
-    width: 105%;
+    width: 100%;
     border: none; 
     border-radius: 10px;
 }
