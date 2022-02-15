@@ -33,6 +33,14 @@ a:hover {
 
 /* SECTION EXPERTISES - END */
 
+/* SECTION DESCRIPTION */
+
+.title-12{
+    color: white!important;
+}
+
+/* SECTION DESCRIPTION - END*/
+
 /* SECTION CTA */
 
 .banniere-titre{
@@ -1139,12 +1147,80 @@ h4 {
       float: none;
       margin: 10px auto 0;
   }
-}
-*/
+}*/
 
+/*
+@media screen and (min-width: 992px) {
+    
+}*/
 
-@media (min-width: 768px) {
-.navbar-toggle {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggle {
     display: none;
+  }
 }
+
+@media (max-width: 767px) {
+
+  p{
+    font-size: 18px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+  /* HEADER */
+  .navbar-toggle{
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  .black-background{
+     padding: 5px;
+  }
+
+  /* EXPERTISES */
+  .citation{
+    width: 95%;
+  }
+
+  /* DESCRIPTION */
+  #bloc-3-what-i-do{
+    padding: 0;
+  }
+
+  #bloc-3-what-i-do article{
+    padding: 15px;
+  }
+
+  /* PORTFOLIO */
+  .portfolio-row{
+    margin: 0;
+  }
+
+  #bloc-4-portfolio{
+    padding: 25px;
+  }
+
+  #bloc-4-portfolio .container{
+    padding: 0;
+  }
+
+  .col-sm-6 a{
+    margin: 0;
+  }
+
+  .col-sm-6 a img{
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  .img-responsive{
+    display: initial;
+  }
+
+  /* CONTACT */
+  .container-bis{
+    flex-direction: column;
+  }
 }
