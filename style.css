@@ -18,6 +18,10 @@ a:hover {
     cursor: pointer;
 }
 
+.l-bloc .navbar a:focus {
+    color: black;
+}
+
 /* SECTION EXPERTISES*/
 
 .col-sm-4 p{
